@@ -1,10 +1,10 @@
 * { box-sizing: border-box; font-family: Inter, system-ui, sans-serif; }
 body { margin:0; background:#0f172a; color:white; display:flex; justify-content:center; min-height:100vh; }
-.app { max-width:420px; width:100%; padding:20px; text-align:center; }
+.app { margin: 0 auto; max-width:420px; width:100%; padding:20px; text-align:center; }
 h1 { font-size:2rem; margin:10px 0; } h1 span { color:#38bdf8; }
 .scoreboard { display:flex; justify-content:space-between; background:#1e293b; padding:12px; border-radius:12px; margin:15px 0; font-weight:700; }
 .scoreboard.active { color:#38bdf8; transform:scale(1.1); }
-.status { font-size:1.3rem; font-weight:600; padding:10px; border-radius:10px; background:#1e293b; margin-bottom:15px; }
+.status { font-size:1.4rem; font-weight:600; padding:10px; border-radius:10px; background:#1e293b; margin-bottom:15px; }
 .status.win { background:#16a34a; }.status.draw { background:#eab308; color:#000; }
 .board { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; background:#1e293b; padding:15px; border-radius:16px; }
 .square { aspect-ratio:1; font-size:2.5rem; font-weight:800; background:#0f172a; border:2px solid #334155; border-radius:12px; color:white; cursor:pointer; transition:0.15s; }
